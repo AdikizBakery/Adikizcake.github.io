@@ -1,0 +1,113 @@
+
+body, h1, p, ul, li, input, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color:#d8b9ff;
+    line-height: 1.5;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#d8b9ff;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header .search-bar input {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.header .navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.header .navigation a:hover {
+    text-decoration: underline;
+}
+.checkout {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.checkout h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.checkout-form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.checkout-form .form-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.checkout-form .form-group input,
+.checkout-form .form-group select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.checkout-form .form-group .field {
+    font-size: 14px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-buttons .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.form-buttons .btn.kembali {
+    background-color: #ddd;
+    color: #333;
+}
+
+.form-buttons .btn.submit {
+    background-color: #333;
+    color: white;
+}
+
+.form-buttons .btn:hover {
+    opacity: 0.9;
+}
